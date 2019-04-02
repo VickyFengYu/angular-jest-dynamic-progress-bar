@@ -1,0 +1,1 @@
+# angular-jest-dynamic-progress-bar
