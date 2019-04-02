@@ -1,1 +1,1 @@
-# angular-jest-dynamic-progress-bar
+# react-jest-dynamic-progress-bar
