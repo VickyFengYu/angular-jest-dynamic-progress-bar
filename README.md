@@ -1,1 +1,1 @@
-# react-jest-dynamic-progress-bar
+# reactJS-jest-dynamic-progress-bar
