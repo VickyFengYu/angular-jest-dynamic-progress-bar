@@ -3,8 +3,11 @@
 
 ![enter image description here](https://github.com/VickyFengYu/reactJS-jest-dynamic-progress-bar/blob/master/pictures/DynamicProgressBar.jpg)
 
+
+## Jest
+
   ```
-  import React from 'react';
+import React from 'react';
 import { configure, shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import DynamicProgressBar from '../index';
