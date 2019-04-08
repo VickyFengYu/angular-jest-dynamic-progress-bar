@@ -1,0 +1,70 @@
+{
+  "name": "@lux/web",
+  "version": "2.0.0-alpha.0",
+  "description": "Web",
+  "author": "Digital Technology Team",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.dev.aws.com:7999/lux/lux-web.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.dev.aws.com/repository/npm-private"
+  },
+  "scripts": {
+    "format": "prettier --single-quote --write 'src/**/*.js'",
+    "start": "lux start",
+    "lint": "lux lint css && lux lint js",
+    "build": "rm -rf ./build && lux build && cp -r src/public build",
+    "build-storybook": "build-storybook",
+    "test": "npm run lint && lux test",
+    "precommit": "lux lint-staged && npm run lint && npm test",
+    "style-guide": "lux style-guide",
+    "storybook": "start-storybook -p 9001 -s src",
+    "aem-upload": "npm run build && lux aem-bundle --upload",
+    "aem-bundle": "npm run build && lux aem-bundle",
+    "prec": "npm run precommit",
+    "c": "lux commit --no-verify"
+  },
+  "dependencies": {
+    "@babel/core": "7.2.2",
+    "@lux/components": "^2.23.0-alpha.0",
+    "@lux/core": "^2.20.0-alpha.0",
+    "@lux/helpers": "2.8.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "date-fns": "1.29.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-loadable": "5.5.0",
+    "recompose": "0.30.0",
+    "redux-mock-store": "1.4.0",
+    "redux-thunk": "2.3.0",
+    "storybook": "1.0.0"
+  },
+  "styleguide": {
+    "name": "Web",
+    "showVersion": true
+  },
+  "aem": {
+    "name": "lux2",
+    "path": "/etc/designs/springd/clientlibs/lux2"
+  },
+  "devDependencies": {
+    "@storybook/addon-viewport": "4.1.4",
+    "@storybook/react": "4.1.4",
+    "fetch-mock": "7.3.0",
+    "html-webpack-plugin": "3.2.0"
+  },
+  "resolutions": {
+    "babel-core": "^7.0.0-bridge"
+  },
+  "splitChunks": {},
+  "ga": {
+    "excludeComponents": [
+      "BenefitComponent",
+      "FooterLinks",
+      "Footer",
+      "MarketingBanner",
+      "Tout"
+    ]
+  }
+}

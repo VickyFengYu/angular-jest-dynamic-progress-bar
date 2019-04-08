@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "tests": 12,
+    "passes": 12,
+    "failures": 0,
+    "duration": 3477,
+    "start": "2019-04-04T06:31:37.226Z",
+    "end": "2019-04-04T06:31:40.703Z"
+  },
+  "failures": [],
+  "passes": [
+    {
+      "title": "should shallow render",
+      "fullTitle": "OnePassLogin Component should shallow render",
+      "duration": 522,
+      "errorCount": 0
+    },
+    {
+      "title": "should have correct iframe height when no loginStatus is set",
+      "fullTitle": "OnePassLogin Component should have correct iframe height when no loginStatus is set",
+      "duration": 522,
+      "errorCount": 0
+    },
+    {
+      "title": "should have correct iframe height when loginStatus is set",
+      "fullTitle": "OnePassLogin Component should have correct iframe height when loginStatus is set",
+      "duration": 522,
+      "errorCount": 0
+    },
+    {
+      "title": "should have correct iframe path",
+      "fullTitle": "OnePassLogin Component should have correct iframe path",
+      "duration": 522,
+      "errorCount": 0
+    },
+    {
+      "title": "should shallow render",
+      "fullTitle": "DynamicProgressBar Component should shallow render",
+      "duration": 658,
+      "errorCount": 0
+    },
+    {
+      "title": "should render Progress Bar by default",
+      "fullTitle": "DynamicProgressBar Component should render Progress Bar by default",
+      "duration": 658,
+      "errorCount": 0
+    },
+    {
+      "title": "Play the Progress Bar, Click the Button",
+      "fullTitle": "DynamicProgressBar Component Play the Progress Bar, Click the Button",
+      "duration": 658,
+      "errorCount": 0
+    },
+    {
+      "title": "Play the DropDown, Select the Item",
+      "fullTitle": "DynamicProgressBar Component Play the DropDown, Select the Item",
+      "duration": 658,
+      "errorCount": 0
+    },
+    {
+      "title": "should Play Progress Bar Work Correctly",
+      "fullTitle": "DynamicProgressBar Component should Play Progress Bar Work Correctly",
+      "duration": 658,
+      "errorCount": 0
+    },
+    {
+      "title": "should onProgressBarSelection Work Correctly",
+      "fullTitle": "DynamicProgressBar Component should onProgressBarSelection Work Correctly",
+      "duration": 658,
+      "errorCount": 0
+    },
+    {
+      "title": "should Render Document Correctly",
+      "fullTitle": "DynamicProgressBar Component should Render Document Correctly",
+      "duration": 658,
+      "errorCount": 0
+    },
+    {
+      "title": "should shallow render",
+      "fullTitle": "ReduxPractice Component should shallow render",
+      "duration": 1260,
+      "errorCount": 0
+    }
+  ],
+  "skipped": []
+}

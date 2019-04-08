@@ -1,0 +1,6 @@
+{
+  "result": {
+    "status": "400",
+    "message": "Unsuccessful request due to an incorrect parameter in the URL."
+  }
+}

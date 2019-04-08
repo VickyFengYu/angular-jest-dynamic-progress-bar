@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicProgressBar Component should shallow render 1`] = `
+<div
+  className="DynamicProgressBar"
+>
+  <div />
+  <br />
+  <br />
+  <styles__DropDownContainer>
+    <DropDown
+      id=""
+      items={Array []}
+      onChange={[Function]}
+      placeholder="Please Select One Progress You Want to Play"
+      selectedIndex={null}
+    />
+  </styles__DropDownContainer>
+  <br />
+  <br />
+  <Grid
+    fluid={false}
+    theme={
+      Object {
+        "colours": Object {
+          "black": "#231F20",
+          "bluehover": "#1AB9EE",
+          "cherise": "#E32490",
+          "cherise_d1": "#CB1A7E",
+          "cherise_d2": "#AD166B",
+          "cherise_d3": "#8F1259",
+          "cherise_d4": "#710E46",
+          "cherise_d5": "#530B33",
+          "cherise_l1": "#E7429F",
+          "cherise_l2": "#EB60AF",
+          "cherise_l3": "#EF7EBE",
+          "cherise_l4": "#F29CCD",
+          "cherise_l5": "#F6BBDC",
+          "darkslate": "#1D3444",
+          "green_60": "#12CB60",
+          "grey": "#F6F5F5",
+          "grey_50": "#505050",
+          "grey_66": "#666666",
+          "grey_70": "#707070",
+          "grey_8a": "#8A8A8A",
+          "grey_a1": "#A1A1A1",
+          "grey_c6": "#C6C6C6",
+          "grey_cc": "#CCCCCC",
+          "grey_d6": "#D6D6D6",
+          "grey_dd": "#DDDDDD",
+          "grey_e1": "#E1E1E1",
+          "grey_e2": "#E2E2E2",
+          "grey_e5": "#E5E5E5",
+          "grey_f5": "#F5F5F5",
+          "lightslate": "#8589A1",
+          "lightslate_d1": "#727692",
+          "lightslate_d2": "#626780",
+          "lightslate_d3": "#54576D",
+          "lightslate_d4": "#454859",
+          "lightslate_d5": "#363846",
+          "lightslate_l1": "#989CB0",
+          "lightslate_l2": "#ABAEBF",
+          "lightslate_l3": "#BFC1CD",
+          "lightslate_l4": "#D2D3DC",
+          "lightslate_l5": "#E5E6EB",
+          "linkblue": "#009FD4",
+          "linkblue_d1": "#0086B2",
+          "linkblue_d2": "#006C90",
+          "linkblue_d3": "#00536E",
+          "linkblue_d4": "#00394C",
+          "linkblue_l1": "#00B8F6",
+          "linkblue_l2": "#19C5FF",
+          "linkblue_l3": "#5DD6FF",
+          "linkblue_l4": "#7FDFFF",
+          "linkblue_l5": "#A1E7FF",
+          "linkblue_l6": "#C3F0FF",
+          "powderblue": "#5EC6C9",
+          "powderblue_d1": "#45BDC0",
+          "powderblue_d2": "#39A7AA",
+          "powderblue_d3": "#318E91",
+          "powderblue_d4": "#287577",
+          "powderblue_d5": "#1F5C5E",
+          "powderblue_d6": "#174344",
+          "powderblue_ee": "#1AB9EE",
+          "powderblue_l1": "#77CFD2",
+          "powderblue_l2": "#91D8DA",
+          "powderblue_l3": "#AAE1E3",
+          "powderblue_l4": "#C4EAEB",
+          "purple_7c": "#7D287C",
+          "rederror": "#990000",
+          "singtelred": "#ED1A3D",
+          "singtelred_00": "#990000",
+          "singtelred_d1": "#D41131",
+          "singtelred_d2": "#B50E2A",
+          "singtelred_d3": "#950C23",
+          "singtelred_d4": "#76091B",
+          "singtelred_d5": "#560714",
+          "singtelred_l1": "#EF3958",
+          "singtelred_l2": "#F25972",
+          "singtelred_l3": "#F4788D",
+          "singtelred_l4": "#F798A8",
+          "singtelred_l5": "#F9B7C2",
+          "talktime_easymob": "#7D287C",
+          "white": "#FFFFFF",
+          "yellow": "#FFB824",
+          "yellow_d1": "#FFAD02",
+          "yellow_d2": "#DF9700",
+          "yellow_d3": "#BD8000",
+          "yellow_d4": "#9B6900",
+          "yellow_d5": "#795200",
+          "yellow_l1": "#FFC346",
+          "yellow_l2": "#FFCE68",
+          "yellow_l3": "#FFD98A",
+          "yellow_l4": "#FFE4AC",
+          "yellow_l5": "#FFEFCE",
+        },
+        "fonts": Object {
+          "families": Object {
+            "Arial": "Arial, Helvetica, sans-serif;",
+            "AvenirBook": "AvenirLTStd-Book, Arial, Helvetica, sans-serif",
+            "AvenirHeavy": "AvenirLTStd-Heavy, Arial, Helvetica, sans-serif",
+            "Museo100": "Museo-100, Georgia, Times New Roman, Times, serif",
+            "Museo300": "Museo-300, Georgia, Times New Roman, Times, serif",
+            "Museo500": "Museo-500, Georgia, Times New Roman, Times, serif",
+          },
+          "sizes": Object {
+            "large": "1.125rem",
+            "regular": "1rem",
+            "small": "0.875rem",
+            "xlarge": "1.3125rem",
+            "xsmall": "0.75rem",
+            "xxlarge": "1.75rem",
+            "xxxlarge": "2rem",
+            "xxxxlarge": "3rem",
+          },
+          "styles": Object {
+            "BodyCopy": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+  ",
+            "CalloutError": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #990000;
+  ",
+            "CalloutText": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #505050;
+  ",
+            "ErrorMessage": "
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 1rem;
+    color: #990000;
+  ",
+            "FinePrintCopy": "
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 0.75rem;
+  ",
+            "FinePrintTitle": "
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    font-size: 0.75rem;
+  ",
+            "Header1": "
+    font-family: Museo-100, Georgia, Times New Roman, Times, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 3rem;
+    }
+  ",
+            "Header2": "
+    font-family: Museo-300, Georgia, Times New Roman, Times, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 3rem;
+    }
+  ",
+            "Header3": "
+    font-family: Museo-100, Georgia, Times New Roman, Times, serif;
+    font-size: 1.3125rem;
+    letter-spacing: 0.03125rem;
+    line-height: 33px;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.75rem;
+    }
+  ",
+            "Header4": "
+    font-family: Museo-100, Georgia, Times New Roman, Times, serif;
+    font-size: 1.3125rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.3125rem;
+    }
+  ",
+            "Header5": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.75rem;
+    }
+  ",
+            "Header6": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.125rem;
+    }
+  ",
+            "Header7": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+  ",
+            "InputFieldLabels": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    color: #A1A1A1;
+  ",
+            "SubscriptBadge": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16rem;
+  ",
+            "TextLink": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #009FD4;
+  ",
+          },
+        },
+        "grid": Object {
+          "breakpoints": Object {
+            "lg": 80,
+            "md": 48,
+            "sm": 0,
+          },
+          "container": Object {
+            "lg": 75,
+            "md": 75,
+          },
+          "gutterWidth": 1.25,
+          "outerMargin": 1.25,
+        },
+        "media": Object {
+          "lg": [Function],
+          "md": [Function],
+          "sm": [Function],
+        },
+        "spacing": Object {
+          "large": "3.75rem",
+          "medium": "2.5rem",
+          "small": "1.25rem",
+          "xlarge": "5rem",
+          "xsmall": "0.625rem",
+        },
+        "states": Object {
+          "danger": Object {
+            "colour": "#990000",
+          },
+          "info": Object {
+            "colour": "#C6C6C6",
+          },
+          "success": Object {
+            "colour": "#12CB60",
+          },
+          "warning": Object {
+            "colour": "#DF9700",
+          },
+        },
+        "styles": Object {
+          "componentSmallRadius": "border-radius: 3px;",
+          "panelDropShadow": "box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);",
+        },
+      }
+    }
+  >
+    <Row
+      center="md"
+      theme={
+        Object {
+          "colours": Object {
+            "black": "#231F20",
+            "bluehover": "#1AB9EE",
+            "cherise": "#E32490",
+            "cherise_d1": "#CB1A7E",
+            "cherise_d2": "#AD166B",
+            "cherise_d3": "#8F1259",
+            "cherise_d4": "#710E46",
+            "cherise_d5": "#530B33",
+            "cherise_l1": "#E7429F",
+            "cherise_l2": "#EB60AF",
+            "cherise_l3": "#EF7EBE",
+            "cherise_l4": "#F29CCD",
+            "cherise_l5": "#F6BBDC",
+            "darkslate": "#1D3444",
+            "green_60": "#12CB60",
+            "grey": "#F6F5F5",
+            "grey_50": "#505050",
+            "grey_66": "#666666",
+            "grey_70": "#707070",
+            "grey_8a": "#8A8A8A",
+            "grey_a1": "#A1A1A1",
+            "grey_c6": "#C6C6C6",
+            "grey_cc": "#CCCCCC",
+            "grey_d6": "#D6D6D6",
+            "grey_dd": "#DDDDDD",
+            "grey_e1": "#E1E1E1",
+            "grey_e2": "#E2E2E2",
+            "grey_e5": "#E5E5E5",
+            "grey_f5": "#F5F5F5",
+            "lightslate": "#8589A1",
+            "lightslate_d1": "#727692",
+            "lightslate_d2": "#626780",
+            "lightslate_d3": "#54576D",
+            "lightslate_d4": "#454859",
+            "lightslate_d5": "#363846",
+            "lightslate_l1": "#989CB0",
+            "lightslate_l2": "#ABAEBF",
+            "lightslate_l3": "#BFC1CD",
+            "lightslate_l4": "#D2D3DC",
+            "lightslate_l5": "#E5E6EB",
+            "linkblue": "#009FD4",
+            "linkblue_d1": "#0086B2",
+            "linkblue_d2": "#006C90",
+            "linkblue_d3": "#00536E",
+            "linkblue_d4": "#00394C",
+            "linkblue_l1": "#00B8F6",
+            "linkblue_l2": "#19C5FF",
+            "linkblue_l3": "#5DD6FF",
+            "linkblue_l4": "#7FDFFF",
+            "linkblue_l5": "#A1E7FF",
+            "linkblue_l6": "#C3F0FF",
+            "powderblue": "#5EC6C9",
+            "powderblue_d1": "#45BDC0",
+            "powderblue_d2": "#39A7AA",
+            "powderblue_d3": "#318E91",
+            "powderblue_d4": "#287577",
+            "powderblue_d5": "#1F5C5E",
+            "powderblue_d6": "#174344",
+            "powderblue_ee": "#1AB9EE",
+            "powderblue_l1": "#77CFD2",
+            "powderblue_l2": "#91D8DA",
+            "powderblue_l3": "#AAE1E3",
+            "powderblue_l4": "#C4EAEB",
+            "purple_7c": "#7D287C",
+            "rederror": "#990000",
+            "singtelred": "#ED1A3D",
+            "singtelred_00": "#990000",
+            "singtelred_d1": "#D41131",
+            "singtelred_d2": "#B50E2A",
+            "singtelred_d3": "#950C23",
+            "singtelred_d4": "#76091B",
+            "singtelred_d5": "#560714",
+            "singtelred_l1": "#EF3958",
+            "singtelred_l2": "#F25972",
+            "singtelred_l3": "#F4788D",
+            "singtelred_l4": "#F798A8",
+            "singtelred_l5": "#F9B7C2",
+            "talktime_easymob": "#7D287C",
+            "white": "#FFFFFF",
+            "yellow": "#FFB824",
+            "yellow_d1": "#FFAD02",
+            "yellow_d2": "#DF9700",
+            "yellow_d3": "#BD8000",
+            "yellow_d4": "#9B6900",
+            "yellow_d5": "#795200",
+            "yellow_l1": "#FFC346",
+            "yellow_l2": "#FFCE68",
+            "yellow_l3": "#FFD98A",
+            "yellow_l4": "#FFE4AC",
+            "yellow_l5": "#FFEFCE",
+          },
+          "fonts": Object {
+            "families": Object {
+              "Arial": "Arial, Helvetica, sans-serif;",
+              "AvenirBook": "AvenirLTStd-Book, Arial, Helvetica, sans-serif",
+              "AvenirHeavy": "AvenirLTStd-Heavy, Arial, Helvetica, sans-serif",
+              "Museo100": "Museo-100, Georgia, Times New Roman, Times, serif",
+              "Museo300": "Museo-300, Georgia, Times New Roman, Times, serif",
+              "Museo500": "Museo-500, Georgia, Times New Roman, Times, serif",
+            },
+            "sizes": Object {
+              "large": "1.125rem",
+              "regular": "1rem",
+              "small": "0.875rem",
+              "xlarge": "1.3125rem",
+              "xsmall": "0.75rem",
+              "xxlarge": "1.75rem",
+              "xxxlarge": "2rem",
+              "xxxxlarge": "3rem",
+            },
+            "styles": Object {
+              "BodyCopy": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+  ",
+              "CalloutError": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #990000;
+  ",
+              "CalloutText": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #505050;
+  ",
+              "ErrorMessage": "
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 1rem;
+    color: #990000;
+  ",
+              "FinePrintCopy": "
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 0.75rem;
+  ",
+              "FinePrintTitle": "
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    font-size: 0.75rem;
+  ",
+              "Header1": "
+    font-family: Museo-100, Georgia, Times New Roman, Times, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 3rem;
+    }
+  ",
+              "Header2": "
+    font-family: Museo-300, Georgia, Times New Roman, Times, serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 3rem;
+    }
+  ",
+              "Header3": "
+    font-family: Museo-100, Georgia, Times New Roman, Times, serif;
+    font-size: 1.3125rem;
+    letter-spacing: 0.03125rem;
+    line-height: 33px;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.75rem;
+    }
+  ",
+              "Header4": "
+    font-family: Museo-100, Georgia, Times New Roman, Times, serif;
+    font-size: 1.3125rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.3125rem;
+    }
+  ",
+              "Header5": "
+    font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.75rem;
+    }
+  ",
+              "Header6": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    @media (min-width: 48em) {
+      font-size: 1.125rem;
+    }
+  ",
+              "Header7": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+  ",
+              "InputFieldLabels": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    color: #A1A1A1;
+  ",
+              "SubscriptBadge": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16rem;
+  ",
+              "TextLink": "
+    font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #009FD4;
+  ",
+            },
+          },
+          "grid": Object {
+            "breakpoints": Object {
+              "lg": 80,
+              "md": 48,
+              "sm": 0,
+            },
+            "container": Object {
+              "lg": 75,
+              "md": 75,
+            },
+            "gutterWidth": 1.25,
+            "outerMargin": 1.25,
+          },
+          "media": Object {
+            "lg": [Function],
+            "md": [Function],
+            "sm": [Function],
+          },
+          "spacing": Object {
+            "large": "3.75rem",
+            "medium": "2.5rem",
+            "small": "1.25rem",
+            "xlarge": "5rem",
+            "xsmall": "0.625rem",
+          },
+          "states": Object {
+            "danger": Object {
+              "colour": "#990000",
+            },
+            "info": Object {
+              "colour": "#C6C6C6",
+            },
+            "success": Object {
+              "colour": "#12CB60",
+            },
+            "warning": Object {
+              "colour": "#DF9700",
+            },
+          },
+          "styles": Object {
+            "componentSmallRadius": "border-radius: 3px;",
+            "panelDropShadow": "box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);",
+          },
+        }
+      }
+    />
+  </Grid>
+</div>
+`;

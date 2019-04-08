@@ -1,0 +1,16 @@
+{
+    "serviceUrl": "http://pb-api.herokuapp.com/bars",
+    "apiResponse": {
+        "buttons": [
+            25,
+            21,
+            -25,
+            -16
+        ],
+        "bars": [
+            76,
+            24
+        ],
+        "limit": 200
+    }
+}
