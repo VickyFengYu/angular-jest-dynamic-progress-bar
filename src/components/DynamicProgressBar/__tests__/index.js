@@ -5,22 +5,12 @@ import DynamicProgressBar from '../index';
 import { Button, DropDown } from '@lux/components';
 
 import renderer from 'react-test-renderer';
-// import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-// Enzyme.configure({ adapter: new Adapter() });
 configure({ adapter: new Adapter() })
 
 global.fetch = require('jest-fetch-mock');
 
 import testData from '../__mocks__/data.json';
-// import testButtons from '../__mocks__/buttons.json';
-// import testBars from '../__mocks__/bars.json';
-
-// const mockMountFetch = () => fetch.mockResponses([JSON.stringify(successJson)]);
-// const mockMountFetchFail = () =>
-//   fetch.mockResponses([JSON.stringify(failJson)]);
-// const mockMountFetchError = () =>
-//   fetch.mockResponses([JSON.stringify(errorJson)]);
 
 describe('DynamicProgressBar Component', () => {
 
