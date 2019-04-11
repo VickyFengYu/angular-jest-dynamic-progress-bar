@@ -2,13 +2,13 @@
   "name": "@lux/web",
   "version": "2.0.0-alpha.0",
   "description": "Web",
-  "author": "Digital Technology Team",
+  "author": "Technology",
   "repository": {
     "type": "git",
-    "url": "ssh://git@bitbucket.dev.aws.com:7999/lux/lux-web.git"
+    "url": "ssh://git@bitbucket.dev.com:7999/lux/lux-web.git"
   },
   "publishConfig": {
-    "registry": "https://nexus.dev.aws.com/repository/npm-private"
+    "registry": "https://nexus.dev.com/repository/npm-private"
   },
   "scripts": {
     "format": "prettier --single-quote --write 'src/**/*.js'",
