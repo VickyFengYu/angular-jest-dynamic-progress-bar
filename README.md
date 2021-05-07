@@ -10,7 +10,7 @@ The is also a limit data returned from **Backend API**, if the bar's value go up
 ##
 
 
-![enter image description here](https://github.com/VickyFengYu/reactJS-jest-dynamic-progress-bar/blob/master/pictures/DynamicProgressBar.jpg)
+![enter image description here](https://github.com/VickyFengYu/reactJS-jest-dynamic-progress-bar/blob/master/pictures/DynamicProgressBar.png)
 
 
 ## Jest
